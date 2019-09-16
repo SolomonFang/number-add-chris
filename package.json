@@ -1,12 +1,16 @@
 {
   "name": "number-add-chris",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "prepublish": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SolomonFang/number-add-chris.git"
   },
   "keywords": [],
   "author": "",
