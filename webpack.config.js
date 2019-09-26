@@ -13,8 +13,17 @@ module.exports = {
         libraryExport: 'default'
     },
     mode: 'none',
-    optimization:{
-        minimize:true,
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use: ["babel-loader", "eslint-loader"]
+            }
+        ]
+    },
+    optimization: {
+        minimize: true,
         minimizer: [
             new TerserPlugin({
                 include: /\.min\.js$/,
