@@ -100,16 +100,16 @@ return /******/ (function(modules) { // webpackBootstrap
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-const add = (a, b) => {
-  let i = a.length - 1;
-  let j = b.length - 1;
-  let carray = 0;
-  let ret = '';
+var add = function add(a, b) {
+  var i = a.length - 1;
+  var j = b.length - 1;
+  var carray = 0;
+  var ret = '';
 
   while (i >= 0 || j >= 0) {
-    let x = 0;
-    let y = 0;
-    let sum;
+    var x = 0;
+    var y = 0;
+    var sum = void 0;
 
     if (i >= 0) {
       x = a[i] - '0';
